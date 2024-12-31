@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navication_ber{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(237, 220, 220);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1{
+    font-size: 15px;
+    margin: 8px 20px;
+    cursor: pointer;
+}
+
+.nav2 ul li{
+    float: left;
+    margin: 14px 15px;
+    font-size: 16px;
+    list-style: none;
+}
+
+.nav2 ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav3 button{
+    margin: 10px 8px;
+    padding: 6px 10px;
+    border: 1px solid rgb(155, 140, 140);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.nav3 .white{
+    background-color: rgb(217, 204, 204);
+}
+
+.nav3 .black{
+    background-color: black;
+    color: white;
+}
+
+.nav3 img{
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.img{
+    background-image: url(Image/Rectangle\ 1.png);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    display: flex;
+}
+
+
+
+.cripto{
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.cripto h1{
+    font-size: 19px;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.cripto img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: inline-block;
+}
+
+.features .name{
+    width: 100%;
+    height: 60px;
+    margin: 20px 30px;
+}
+
+.features .name h1{
+    font-weight: bold;
+}
+
+.flex{
+    width: 100;
+    height: 300px;
+    display: flex;
+    margin: 0px 50px;
+    justify-content: space-between;
+}
+
+.secured{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+
+}
+
+.newbie{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+.payment{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+.flex h1{
+    font-size: 19px;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.btn_btn{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 10%;
+    left: 48%;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.buy_sell{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.buy{
+    width: 50%;
+    margin: 10px 10px;
+}
+
+.buy .icon_img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-image: url(Image/blur.png);
+    background-size: cover;
+}
+
+.box_buy{
+    width: 100%;
+    height: 100%;
+    margin: 50px 90px;
+}
+
+.zelle{
+    width: 100;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.zelle p{
+    float: left;
+    margin: 14px 10px;
+}
+
+.singup_section{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(170, 81, 195);
+    display: inline-block;
+}
+
+.singup_section h1{
+    padding: 20px;
+    text-align: center;
+}
+
+.singup_section button{
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    margin: 50px auto;
+}
+.futter{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    /* justify-content: space-between; */
+}
+
+.image_sp{
+    width: 200px;
+    height: 300px;
+    background-color: black;
+    position: relative;
+    float: left;
+}
+.futter img{
+    height: 20px;
+    padding: 0px;
+    margin: 10px 5px;
+    position: absolute;
+    top: 5px;
+    left: 40px;
+
+}
+
+.coin{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    /* justify-content: space-between; */
+}
+
+.coin_details{
+    width: 150px;
+    height: 300px;
+    background-color: black;
+    float: left;
+    margin: 0px 10px;
+}
+
+.coin_details h4{
+    padding: 10px;
+}
+.coin_details p{
+    padding: 10px;
+}
